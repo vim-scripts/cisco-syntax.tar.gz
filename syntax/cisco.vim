@@ -3,7 +3,7 @@
 " Language: cisco configuration files
 " Maintainer: Harry Schroeder <has3@usa.net>
 " 
-" Last Modification: 17-Nov-2001
+" Last Modification: 03-Jan-2002
 " 
 " 
 "syntax clear
@@ -4547,6 +4547,10 @@ syntax match keyword /zone local/
 syntax match keyword /zone prefix/
 syntax match keyword /zone remote/
 syntax match keyword /zone subnet/
+" added by matt okeson-harlow for cmts 2002/01/03 12:33:44 
+syntax match keyword /cable upstream/
+syntax match keyword /cable dhcp-giaddr/
+syntax match keyword /cable downstream/
 
 
 " Define the default hightlighting.
